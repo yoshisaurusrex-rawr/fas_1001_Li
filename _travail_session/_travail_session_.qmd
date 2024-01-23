@@ -1,0 +1,50 @@
+---
+title: "Travail Session FAS 1001"
+author: "Yun Shen (Yoshi) Li"
+format: pdf
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+# Introduction
+
+## Problématique
+
+## Données et méthodes
+
+## Résultats
+
+# Conclusion
+
+![](images/log de commandes (Yoshi TP 1).png)
+
+je n'arrive plus à retrouver les logs parce que j'ai recommencé tellement de fois mais bon voici:
+
+1.  on a créer ma propre fork sur github et on lui a donner un nom
+2.  git clone dans le terminal avec le url SSH pour cloner le fichier de github dans un fichier locale de mon ordinateur qu'on a nommer fas_1001_li
+3.  on a ouvert le fichier Rproj et créé un document Quarto en PDF nommé TP 1(FAS-1001) dans le fichier \_tp avec la date de remise et mon nom
+4.  on a render le document et puis, dans le terminal, on fait git add . pour ajouter les modifications dans l'historique du terminal et puis git commit -m "Premier commit" pour enregister
+5.  On a créer un autre fichier *travail* *session* avec l'ensemble des sections du travail de session
+6.  fait la même chose avec git add . et git commit -m "Création du document de travail de session" dans le terminal
+7.  j'ai essayer git log pour voir l'historique mais ça m'a donner deux lignes alors j'ai essayer history, mais ça ne m'a pas donner ce que je voulais alors me voici avec une explication écrite de tout ce que j'ai fait
+8.  censé utiliser git push origin fas_1001_Li pour push mes modifications sur GitHub mais à cause de la taille du terminal, ça ne marche pas :(
